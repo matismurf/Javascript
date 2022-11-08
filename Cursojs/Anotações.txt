@@ -1,0 +1,33 @@
+-Para usar um código javascript dentro do corpo de um documento html utilize as
+tags <script></script>
+-Antigamente era necessário utilizar ";" no final de cada linha de código, mas
+atualmente isso não é mais necessário
+-Para comentar código utilize "//" para uma linha ou "/* */" para diversas
+-A estrutura para criar variável é "var nomeDaVariavel = valor", tambem é possível
+utilizar o comando "let" ao invés de "var"
+-comando "typeof" serve para ver o tipo da variável ou valor indicado
+-comentário em html "<!-- -->" e comentário em css "/* */"
+-concatenar string com variável, exemplo "window.alert('é um grande prazer em te conhecer, '+ nome)"
+-para converter string para um número utilize "Number.parseInt(variavel)",
+"Number.parseFloat(variavel)" ou "Number(variavel)"
+-para converter número para string utilize "variavel.toString()" ou "String(variavel)"
+-uma forma mais simples de concatenas string com variável é utilizando "${variavel}"
+-Operadores aritméticos(+=,-=,*,/,%,**)
+-Operadores lógicos(>,<,>=,<=,==,===,!=,!==)
+-Operadores relacionais(&&,||)
+-Operador ternário(condição?instrucao true: instrucao false)
+-DOM:Document Object Model, são os elementos da página e nós podemos manipulá-los
+utilizando JavaScript
+-é possivel selecionar algum elemento do DOM facilmente utilizando 'window.document.getElementsBy...'
+-recomendo atribuir a seleção de um elemento da DOM á uma variável
+-Id é representado por "#" e classe por "."
+-função é um bloco de código que será executado apenas quando determinado evento
+ocorrer "function acao(parametro){...bloco...}"
+-para disparar evento click utilizar "onclick='funcao()'" na tag html
+-é possivel adicionar eventos tambem utilizando o "addEventListener(evento,funcao)"
+dentro da parte JavaScript
+-sintaxe da condicional "if(condicao){true}else{false}"
+-para funcionar a concatenação "${variavel}" voce precisa usar string com crase,
+não funciona com aspas
+-para condicionais múltiplas utilizar "switch(expressao){case: instrucao break case: 
+instrucao break}"
