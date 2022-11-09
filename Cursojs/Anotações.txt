@@ -31,3 +31,9 @@ dentro da parte JavaScript
 não funciona com aspas
 -para condicionais múltiplas utilizar "switch(expressao){case: instrucao break case: 
 instrucao break}"
+-para repetir um bloco de código enquanto houver determinada condição utilize
+"while(condicao){instrucao}" , "do{instrucao} while(condicao)" ou
+"for(variavel;condicao;incremento){instrucao}"
+-para declarar variável composta(array) "let nome=[valor,valor....]"
+-adicionar valor na última posição de um array "nomeVariavel.push(valor)"
+-colocar o array em ordem "nomeVar.sort()"
