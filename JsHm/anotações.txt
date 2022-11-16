@@ -1,0 +1,8 @@
+-Funções por padrão são do tipo 'undefined' a não ser que ela retorne algum valor,
+nesse caso será do tipo do valor retornado
+-Utilize o comando "new" para transformar a função em um objeto
+-rest element são o "resto" dos atributos de um objeto que não foram declarados
+expressamente, e para utilizados coloque "..." antes de seu nome de variável, por
+exemplo "const {firstName, skills, ...resto} = user;"
+
+parei em imutabilidade e spread
