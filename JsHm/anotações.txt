@@ -4,5 +4,7 @@ nesse caso será do tipo do valor retornado
 -rest element são o "resto" dos atributos de um objeto que não foram declarados
 expressamente, e para utilizados coloque "..." antes de seu nome de variável, por
 exemplo "const {firstName, skills, ...resto} = user;"
+-para importar um js externo dentro de um arquivo js utilize
+"import arquivoNome from './localDoArquivo';"
 
-parei em imutabilidade e spread
+parei em .find e .findIndex
