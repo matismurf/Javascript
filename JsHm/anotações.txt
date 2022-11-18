@@ -6,5 +6,14 @@ expressamente, e para utilizados coloque "..." antes de seu nome de variável, p
 exemplo "const {firstName, skills, ...resto} = user;"
 -para importar um js externo dentro de um arquivo js utilize
 "import arquivoNome from './localDoArquivo';"
-
-parei em .find e .findIndex
+-o método de array "find" traz o item com as condições estabelecidas, o "findIndex"
+retorna o index do item com as condições estabelecidas
+-o método de array "some" retorna um valor booleano, baseado em se o array possui
+ou não um item de condição estabelecida, já o "every" vai indicar se TODOS os itens
+do array cumprem a regra estabelecida e retorna um valor booleano baseado nisso
+-o método de array "map" serve para criar um array baseado em outro array pré existente
+com algumas alterações que podemos passar, o "filter" serve para criar um novo array
+baseado em outro array porem incluir apenas elementos que atendam uma determinada
+condição
+-o método de array "reduce" serve para reduzir um array a um outro tipo de valor,
+é meio complicado de explicar mas fica mais fácil vendo exemplo prático
